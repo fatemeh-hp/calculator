@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./main.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>calculator</title>
 </head>
 <body>
-    <p>hi</p>
+    <main>
+        <section id="heading">
+            <h1 id="calculator">CALCULATOR</h1>
+        </section>
+        <section id="box">
+         <form>
+            <div class="display">
+                <input type="text" name="display">
+
+            </div>
+            <input class="button" id="one" value="1" onclick="display.value+='1'">
+            <input class="button" id="two" value="2" onclick="display.value+='2'">
+            <input class="button" id="three" value="3" onclick="display.value+='3'">
+            <input class="button" id="four" value="4" onclick="display.value+='4'">
+            <input class="button" id="five" value="5" onclick="display.value+='5'">
+            <input class="button" id="six" value="6" onclick="display.value+='6'">
+            <input class="button" id="seven" value="7" onclick="display.value+='7'">
+            <input class="button" id="eight" value="8" onclick="display.value+='8'">
+            <input class="button" id="nine" value="9" onclick="display.value+='9'">
+            <input class="button" id="zero" value="0" onclick="display.value+='0'">
+            <input class="button" id="plus" value="+">
+            <input class="button" id="minus" value="-">
+            <input  class="button" id=" multiply" value="*">
+            <input  class="button" id=" divide" value="/">
+            <input  class="button" id=" result" value="=">
+          </form>
+        </section>
+    </main>
 </body>
 </html>
